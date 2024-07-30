@@ -21,33 +21,33 @@ export function Skills() {
     let languagesHTML = `
     <div className="Languages">
         <div className="col-one">
-            <img src=${html} id="html5" alt="HTML 5" />
-            <img src=${css} alt="CSS 3" />
-            <img src=${js} alt="JavaScript" />
-            <img src=${csharp} alt="C-Sharp" />
-            <img src=${java} alt="Java" />
+            <img src=${html} style="width: 6rem; margin: 1.8rem;" id="html5" alt="HTML 5" />
+            <img src=${css} style="width: 6rem; margin: 1.8rem;" alt="CSS 3" />
+            <img src=${js} style="width: 6rem; margin: 1.8rem;" alt="JavaScript" />
+            <img src=${csharp} style="width: 6rem; margin: 1.8rem;" alt="C-Sharp" />
+            <img src=${java} style="width: 6rem; margin: 1.8rem;" alt="Java" />
         </div>
         <div className="col-two">
-            <img src=${php} alt="PHP" />
-            <img src=${python} alt="Python" />
-            <img src=${mysql} alt="MySql" />
-            <img src=${sql} alt="Sql" />
-            <img src=${node} alt="NodeJS" />
+            <img src=${php} style="width: 6rem; margin: 1.8rem;" alt="PHP" />
+            <img src=${python} style="width: 6rem; margin: 1.8rem;" alt="Python" />
+            <img src=${mysql} style="width: 6rem; margin: 1.8rem;" alt="MySql" />
+            <img src=${sql} style="width: 6rem; margin: 1.8rem;" alt="Sql" />
+            <img src=${node} style="width: 6rem; margin: 1.8rem;" alt="NodeJS" />
         </div>
     </div> `;
 
     let editorsHTML = `
     <div className='Editors'>
         <div className="col-one">
-            <img src=${vsCode} id="vsCode" alt="Visual Studio Code" />
-            <img src=${visualStudio} alt="Visual Studio" />
-            <img src=${androidStudio} alt="Android Studio" />
-            <img src=${Pycharm} alt="Pycharm" />
-            <img src=${SublimeText} alt="Sublime Text" />
+            <img src=${vsCode} style="width: 6rem; margin: 1.8rem;" id="vsCode" alt="Visual Studio Code" />
+            <img src=${visualStudio} style="width: 6rem; margin: 1.8rem;" alt="Visual Studio" />
+            <img src=${androidStudio} style="width: 6rem; margin: 1.8rem;" alt="Android Studio" />
+            <img src=${Pycharm} style="width: 6rem; margin: 1.8rem;" alt="Pycharm" />
+            <img src=${SublimeText} style="width: 6rem; margin: 1.8rem;" alt="Sublime Text" />
         </div>
         <div className="col-two">
-            <img src=${Eclipse} alt="Eclipse" />
-            <img src=${Netbeans} alt="Netbeans" />
+            <img src=${Eclipse} style="width: 6rem; margin: 1.8rem;" alt="Eclipse" />
+            <img src=${Netbeans} style="width: 6rem; margin: 1.8rem;" alt="Netbeans" />
         </div>
     </div>`;
 
