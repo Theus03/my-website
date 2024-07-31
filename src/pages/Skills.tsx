@@ -52,7 +52,6 @@ export function Skills() {
     </div>`;
 
     function showBodySkills(showLanguages: boolean, showEditors: boolean) {
-        console.log(showLanguages, showEditors);
         let bodySkillsDiv = document.getElementById('body-skills');
         if (bodySkillsDiv) {
             bodySkillsDiv.innerHTML = languagesHTML;

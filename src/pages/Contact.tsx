@@ -9,15 +9,15 @@ export function Contact() {
             <main>
                 <h2 className="title-contact">Contact Me</h2>
                 <div className="box-contact">
-                    <img className="outlook" src={outlook}></img>
+                    <img alt="" className="outlook" src={outlook}></img>
                     <a>matheusssleite@outlook.com</a>
                 </div>
                 <div className="box-contact">
-                    <img className="gmail" src={gmail}></img>
+                    <img alt="" className="gmail" src={gmail}></img>
                     <a>matheusflute03@gmail.com</a>
                 </div>
                 <div className="box-contact">
-                    <img className="linkedin" src={linkedin}></img>
+                    <img alt="" className="linkedin" src={linkedin}></img>
                     <a>@matheusssleite</a>
                 </div>
             </main>
