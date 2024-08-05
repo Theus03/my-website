@@ -400,7 +400,7 @@
     #header {
         width: 100%;
         margin: 0 !important;
-        margin-top: 8.5rem !important;
+        margin-top: 3rem !important;
         display: flex !important;
         justify-content: center !important;
 
@@ -424,6 +424,20 @@
         text-align: center;
         align-items: center;
     }
+
+    #home .container {
+        width: 80%;
+    }
+
+    #home .title-home {
+        font-size: 1.6rem;
+    }
+
+    #home .container .yearsExperience .experienceNumber {
+        font-size: 2rem;
+    }
+
+
 
     .containerResume img {
         width: 25rem;
