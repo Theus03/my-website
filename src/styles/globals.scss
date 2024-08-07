@@ -237,11 +237,15 @@
 
         .box-contact {
             display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
             align-items: center;
-            width: 80%;
+            width: 90%;
             background: #EAEEF8;
             padding: 1rem;
             margin: 0.5rem;
+            text-align: center;
+            text-wrap: wrap;
 
             img {
                 width: 3rem;
@@ -252,7 +256,6 @@
             a {
                 font: 400 1.3rem Roboto, 'sans-serif';
                 color: #000; 
-                margin-left: 1.5rem;
             }
 
         }
@@ -354,6 +357,7 @@
     }
 }
 
+// Extra Large - >1920px
 @media (max-width: 1570px ) {
     .container {
         flex-direction: column;
@@ -396,7 +400,36 @@
     }
 }
 
-@media (max-width: 800px) {
+// Large - >1280px
+@media (max-width: 1280px) {
+    #header {
+        width: 100%;
+        margin: 0 !important;
+        margin-top: 3rem !important;
+        display: flex !important;
+        justify-content: center !important;
+
+        .subTitle {
+            text-align: center;
+        }
+    }
+
+
+    .containerResume img {
+        width: 25rem;
+    }
+
+    .container-contact main {
+        width: 100%;
+    }
+
+    .container-contact main .box-contact {
+        width: 100%;
+    }
+}
+
+// Medium - >720px
+@media (max-width: 720px) {
     #header {
         width: 100%;
         margin: 0 !important;
@@ -425,29 +458,75 @@
         align-items: center;
     }
 
-    #home .container {
-        width: 80%;
+
+    .container-contact main .box-contact img {
+        margin-left: 0rem;
     }
 
-    #home .title-home {
-        font-size: 1.6rem;
-    }
-
-    #home .container .yearsExperience .experienceNumber {
-        font-size: 2rem;
-    }
-
-
-
-    .containerResume img {
-        width: 25rem;
-    }
-
-    .container-contact main {
+    .container-contact main .box-contact {
+        flex-direction: column;
         width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+}
+
+// Small - >640px
+@media (max-width: 640px) {
+
+    #projects .body-projects .FrontEnd .col-one img, #projects .body-projects .FrontEnd .col-two img, #projects .body-projects .FrontEnd .col-three img {
+        width: auto;
+    }
+
+    .UIDesign {
+        flex-direction: column;
+    }
+
+    #projects .body-projects .UIDesign .col-one img, #projects .body-projects .UIDesign .col-two img, #projects .body-projects .UIDesign .col-three img {
+        width: auto;
+        display: flex   ;
+        flex-direction: column;
+    }
+
+    .box-contact{
+        a {
+            font: 400 1rem Roboto, 'sans-serif' !important;
+        }
+    }
+
+    .container-contact main .box-contact img {
+        margin-left: 0rem;
+        width: 2em;
     }
 
     .container-contact main .box-contact {
         width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+}
+
+
+// Extra small - >360px 
+
+@media (max-width: 360px) {
+
+    #header .title {
+        font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .box-contact{
+        a {
+            font: 400 0.8rem Roboto, 'sans-serif' !important;
+        }
+    }
+
+    .container-contact main .box-contact img {
+        margin-left: 0rem;
+        width: 2em;
     }
 }
