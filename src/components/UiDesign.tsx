@@ -2,6 +2,8 @@ import cfc from '../assets/cfc.png'
 import cfc_logo from '../assets/cfc_logo.png'
 import palace from '../assets/palace.png'
 import palace_logo from '../assets/palace_logo.png'
+import myHouse from '../assets/myHouse.png';
+import myHouse_logo from '../assets/myHouse_logo.png'
 
 export function UiDesign() {
     return(
@@ -23,6 +25,10 @@ export function UiDesign() {
                         <div className="col-two">
                             <img src={palace} alt="Palace - Project" className='img-project' />
                             <img src={palace_logo} alt="Palace - Logo" className='logo-project' />
+                        </div>
+                        <div className="col-three">
+                            <img src={myHouse} alt="MyHouse - Project" className='img-project' />
+                            <img src={myHouse_logo} alt="MyHouse - Logo" className='logo-project' />
                         </div>
                     </div>
                 </div>

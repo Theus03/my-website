@@ -2,12 +2,13 @@ import { useState } from 'react';
 
 import myBooks from '../assets/myBooks.png';
 import ultraflix from '../assets/ultraflix.png';
-import myHouse from '../assets/myHouse.png';
 
 import cfc from '../assets/cfc.png';
 import cfc_logo from '../assets/cfc_logo.png';
 import palace from '../assets/palace.png';
 import palace_logo from '../assets/palace_logo.png';
+// import myHouse from '../assets/myHouse.png';
+// import myHouse_logo from '../assets/myHouse_logo.png'
 
 interface ProjectProps {
     imgSrc: string;
@@ -33,9 +34,6 @@ const FrontEndProjects = () => (
         <div className="col-two">
             <Project imgSrc={ultraflix} title="UltraFlix" link="https://theus03.github.io/ultraflix/" />
         </div>
-        <div className="col-three">
-            <Project imgSrc={myHouse} title="MyHouse" link="https://theus03.github.io/myHouse/" />
-        </div>
     </div>
 );
 
@@ -49,6 +47,10 @@ const UIDesignProjects = () => (
             <img src={palace} alt="Palace - Project" className='img-project' />
             <img src={palace_logo} alt="Palace - Logo" className='logo-project' />
         </div>
+        {/* <div className="col-three">
+            <img src={myHouse} alt="MyHouse - Project" className='img-project' />
+            <img src={myHouse_logo} alt="MyHouse - Logo" className='logo-project' />
+        </div> */}
     </div>
 );
 
