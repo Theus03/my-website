@@ -17,6 +17,15 @@ import SublimeText from '../assets/sublime.png';
 import Eclipse from "../assets/eclipse.png";
 import Netbeans from "../assets/netbeans.png";
 
+import Figma from '../assets/figma.png';
+import AdobeXD from '../assets/adobeXD.png';
+import Canva from '../assets/canva.png';
+import FlatIcon from '../assets/flaticon.png';
+import Lr from '../assets/lr.png';
+import AfterEffects from "../assets/aftereffects.png";
+import Photoshop from "../assets/photoshop.png";
+
+
 export function Skills() {
     let languagesHTML = `
     <div className="Languages">
@@ -51,7 +60,27 @@ export function Skills() {
         </div>
     </div>`;
 
+<<<<<<< HEAD
     function showBodySkills(showLanguages: boolean, showEditors: boolean) {
+=======
+    let designHTML = `
+        <div className='Design'>
+            <div className="col-one">
+                <img src=${Figma} style="width: 6rem; margin: 1.8rem;" id="vsCode" alt="Visual Studio Code" />
+                <img src=${AdobeXD} style="width: 6rem; margin: 1.8rem;" alt="Visual Studio" />
+                <img src=${Canva} style="width: 6rem; margin: 1.8rem;" alt="Android Studio" />
+                <img src=${FlatIcon} style="width: 6rem; margin: 1.8rem;" alt="Pycharm" />
+                <img src=${Lr} style="width: 6rem; margin: 1.8rem;" alt="Sublime Text" />
+            </div>
+            <div className="col-two">
+                <img src=${AfterEffects} style="width: 6rem; margin: 1.8rem;" alt="Sublime Text" />
+                <img src=${Photoshop} style="width: 6rem; margin: 1.8rem;" alt="Sublime Text" />
+            </div>
+        </div>
+    `;
+
+    function showBodySkills(showLanguages: boolean, showEditors: boolean, showDesign: boolean) {
+>>>>>>> c40a2288a779880a58579dbee611eaf5a7586839
         let bodySkillsDiv = document.getElementById('body-skills');
         if (bodySkillsDiv) {
             bodySkillsDiv.innerHTML = languagesHTML;
@@ -59,6 +88,8 @@ export function Skills() {
                 bodySkillsDiv.innerHTML = languagesHTML;
             } else if (showEditors) {
                 bodySkillsDiv.innerHTML = editorsHTML;
+            } else if (showDesign) {
+                bodySkillsDiv.innerHTML = designHTML;
             }
         }
     }
@@ -69,8 +100,9 @@ export function Skills() {
                 <div className="header-skills">
                     <h1 className="title-skills">My Skills</h1>
                     <nav className="choose-skills">
-                        <a onClick={() => showBodySkills(true, false)} className='text-skills loc'>Languages</a>
-                        <a onClick={() => showBodySkills(false, true)} className='text-skills'>Editors</a>
+                        <a onClick={() => showBodySkills(true, false, false)} className='text-skills loc'>Languages</a>
+                        <a onClick={() => showBodySkills(false, true, false)} className='text-skills'>Editors</a>
+                        <a onClick={() => showBodySkills(false, false, true)} className='text-skills'>Design</a>
                     </nav>
                 </div>
                 <div className="body-skills" id="body-skills">
