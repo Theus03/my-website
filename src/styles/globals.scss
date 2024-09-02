@@ -354,6 +354,18 @@
 }
 
 @media (max-width: 1570px ) {
+
+    
+    .text-nav:hover::after {
+        position: absolute;
+        content: '';
+        width: 30px !important;
+        height: 2px;
+        margin-top: 1.5rem;
+        background-color: #323232;
+        opacity: 100%;
+    }
+    
     .container {
         flex-direction: column;
         height: 60% !important;
@@ -434,5 +446,23 @@
 
     .container-contact main .box-contact {
         width: 100%;
+    }
+}
+
+@media (max-width: 400px)  {
+    #header {
+        margin-top: 1.4rem !important;
+    }
+
+    .title {
+        font-size:  2rem !important;
+    }
+
+    .subTitle {
+        font-size: 1rem !important;
+    }
+
+    #home .container {
+        width: 80% !important;
     }
 }

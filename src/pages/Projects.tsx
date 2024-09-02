@@ -30,7 +30,7 @@ export function Projects() {
                         <div className="col-three">
                             <img src={myHouse} alt="MyHouse - Project" />
                             <b className='text-projects'>MyHouse</b>
-                            <a href="https://theus03.github.io/myHouse/"  className='link-projects' target="_blank">https://theus03.github.io/myHouse/</a>
+                            <a href="https://myhouse-dev.vercel.app/"  className='link-projects' target="_blank">https://myhouse-dev.vercel.app/</a>
                         </div>
                     </div>
                 </div>
