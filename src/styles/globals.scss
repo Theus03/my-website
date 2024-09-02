@@ -486,6 +486,10 @@
 
 // Small - >640px
 @media (max-width: 640px) {
+    .textChoose-projects {
+        margin-right: 1rem !important;
+        font-size: 1rem !important;
+    }
 
     #projects .body-projects .FrontEnd .col-one img, #projects .body-projects .FrontEnd .col-two img, #projects .body-projects .FrontEnd .col-three img {
         width: auto;
@@ -520,7 +524,6 @@
     }
 }
 
-<<<<<<< HEAD
 @media (max-width: 400px)  {
     #header {
         margin-top: 1.4rem !important;
@@ -538,7 +541,6 @@
         width: 80% !important;
     }
 }
-=======
 
 // Extra small - >360px 
 
@@ -561,4 +563,3 @@
         width: 2em;
     }
 }
->>>>>>> c40a2288a779880a58579dbee611eaf5a7586839

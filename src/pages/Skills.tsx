@@ -60,9 +60,6 @@ export function Skills() {
         </div>
     </div>`;
 
-<<<<<<< HEAD
-    function showBodySkills(showLanguages: boolean, showEditors: boolean) {
-=======
     let designHTML = `
         <div className='Design'>
             <div className="col-one">
@@ -80,7 +77,6 @@ export function Skills() {
     `;
 
     function showBodySkills(showLanguages: boolean, showEditors: boolean, showDesign: boolean) {
->>>>>>> c40a2288a779880a58579dbee611eaf5a7586839
         let bodySkillsDiv = document.getElementById('body-skills');
         if (bodySkillsDiv) {
             bodySkillsDiv.innerHTML = languagesHTML;
