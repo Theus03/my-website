@@ -1,6 +1,7 @@
+import ts from '../assets/typescript.png';
+import js from '../assets/js.png';
 import html from '../assets/html-5.png';
 import css from '../assets/css-3.png';
-import js from '../assets/js.png';
 import csharp from '../assets/c-sharp.png';
 import java from '../assets/java.png';
 import php from "../assets/php.png";
@@ -30,9 +31,10 @@ export function Skills() {
     let languagesHTML = `
     <div className="Languages">
         <div className="col-one">
+            <img src=${ts} style="width: 6rem; margin: 1.8rem;" alt="TypeScript" />
+            <img src=${js} style="width: 6rem; margin: 1.8rem;" alt="JavaScript" />
             <img src=${html} style="width: 6rem; margin: 1.8rem;" id="html5" alt="HTML 5" />
             <img src=${css} style="width: 6rem; margin: 1.8rem;" alt="CSS 3" />
-            <img src=${js} style="width: 6rem; margin: 1.8rem;" alt="JavaScript" />
             <img src=${csharp} style="width: 6rem; margin: 1.8rem;" alt="C-Sharp" />
             <img src=${java} style="width: 6rem; margin: 1.8rem;" alt="Java" />
         </div>
@@ -104,6 +106,7 @@ export function Skills() {
                 <div className="body-skills" id="body-skills">
                     <div className="Languages">
                         <div className="col-one">
+                            <img src={ts} alt="TypeScript"/>
                             <img src={html} id="html5" alt="HTML 5" />
                             <img src={css} alt="CSS 3" />
                             <img src={js} alt="JavaScript" />
